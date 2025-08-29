@@ -55,5 +55,38 @@ print("Hello")'''
 
 #To find the length of a string
 '''a="Hello World"
-print(len(a))
-dba54d4 (Added some datatypes)'''
+print(len(a))'''
+
+#Replace string
+'''a="Hello World"
+print(a.replace("H","J"))'''
+
+#Split string
+'''a="Hello World"
+print(a.split(","))'''
+
+#Using Format instrings
+'''age=36
+txt=f"My name is John, I am {age}"
+print(txt)'''
+
+#Boolean 
+'''a=(5>2)
+print(a)'''
+
+'''print(bool(-1))'''
+
+#Function returning a boolean value
+'''def myfunc():
+    return True
+
+if myfunc():
+    print("YES!")
+else:
+    print("NO!")'''
+
+#Sequence Datatype
+'''list=['abcd', 786 ,2.23 , 'john' , 70.2]
+print (list)
+print(type(list))'''
+
