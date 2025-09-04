@@ -39,3 +39,12 @@ if a>b and c>a:
 b=200
 if not a>b:
     print("True")'''
+
+#Using pass
+'''a=5
+b=8
+if a>b:
+    pass
+if b>a:
+    print(b)'''
+
