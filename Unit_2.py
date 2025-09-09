@@ -69,3 +69,18 @@ match day:
         print("Weekday")
     case _:
         print("Invalid Day")'''
+
+#while loop
+'''i=1
+while i<6:
+    print(i)
+    i+=1'''
+
+#number guessing
+'''num=3
+print("Enter a no. in the range[1 to 10]:")
+a=int(input())
+if(num==a):
+    print("You guessed it right")
+else:
+    print("You guessed wrong. The number was "+str(num))'''
