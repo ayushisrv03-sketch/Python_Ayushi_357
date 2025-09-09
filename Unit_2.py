@@ -48,3 +48,24 @@ if a>b:
 if b>a:
     print(b)'''
 
+#match statement
+'''day =10
+match day:
+    case 5:
+        print("Monday")
+    case 6:
+        print("Tuesday")
+    case 7:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case _:
+        print("Invalid day")'''
+
+#using multiple cases in match and also use conditions inside case
+'''day=5
+match day:
+    case 1|2|3|4|5 if day==5:
+        print("Weekday")
+    case _:
+        print("Invalid Day")'''
