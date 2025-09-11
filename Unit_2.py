@@ -84,3 +84,68 @@ if(num==a):
     print("You guessed it right")
 else:
     print("You guessed wrong. The number was "+str(num))'''
+
+# break in while loop 
+'''i=1
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i+=1'''
+#continue in while loop
+'''i=0
+while i<6:
+    i+=1
+    if i==3:
+        continue
+    print(i)'''
+
+#for loop via list
+'''fruits=["Apple","Banana","Cherry"]
+for x in fruits:
+    print(x)
+print(type(fruits))'''
+
+#iteration in for loop
+'''for x in "Apple":
+    print(x)'''
+
+#break in for loop
+'''fruits=["Apple","Banana","Cherry"]
+for x in fruits:
+    if x=="Banana":
+        continue
+    print(x)'''
+
+#range in for
+'''for x in range(1,10):
+    print(x)'''
+
+#start end and step in range
+'''for x in range(1,10,2):
+    print(x)'''
+
+#using else in while and for loop
+'''for x in range(1,6):
+    print(x)
+else:
+    print("Finally")'''
+
+'''i=1
+while(i<6):
+    print(i+2)
+    i+=1
+else:
+    print("Done")'''
+
+#nested loops in python
+'''a=["A","B","C"]
+fruits=["Banana","Cherry"]
+for x in a:
+    for y in fruits:
+        print(x,y)'''
+
+#pass statement
+'''for x in [0,1,2,3]:
+    pass'''
+
