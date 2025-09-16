@@ -149,3 +149,75 @@ for x in a:
 '''for x in [0,1,2,3]:
     pass'''
 
+#list
+'''list1=["rohan",1,3,5]
+print(list1)'''
+# list is ordered,changeable and allows duplicates as well
+'''list1=["rohan",1,3,5,"rohan"]
+print(list1)
+print(len(list1))'''
+
+#list() constructor
+'''l=list(("rohan",1,2,3,"rohan"))
+print(l)'''
+
+#access item in list
+'''l=list(("rohan",1,2,3,"rohan"))
+print(l[4])'''
+
+#negative indexing
+'''l=list(("rohan",1,2,3,"rohan"))
+print(l[-2])'''
+
+'''l=list(("rohan",1,2,3,"rohan"))
+print(l[1:5])'''
+
+#check if item exists
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+if "apple" in l:
+    print("yes")
+if "banana" in l:
+    print("yes")
+else:
+    print("No")'''
+
+#change list item
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l[0]="ram"
+print(l)'''
+#changing list item in a range
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l[1:3]=["ram"]*2
+print(l)'''
+
+#using insert function
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l.insert(2,"ayushi")
+print(l)'''
+
+#using append function
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l.insert(2,"ayushi")
+l.append("hey")
+print(l)'''
+
+#using remove function
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l.insert(2,"ayushi")
+l.append("hey")
+l.remove(2)
+print(l)'''
+
+#extending a list
+'''l=list(("rohan",1,2,3,"rohan","apple"))
+l.insert(2,"ayushi")
+l.append("hey")
+l.remove(2)
+list2=["rohan"]
+l.extend(list2)
+print(l)'''
+
+#using pop function
+l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+l.pop(-2)
+print(l)
