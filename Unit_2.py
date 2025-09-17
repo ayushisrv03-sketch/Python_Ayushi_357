@@ -218,6 +218,63 @@ l.extend(list2)
 print(l)'''
 
 #using pop function
-l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+'''l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
 l.pop(-2)
-print(l)
+print(l)'''
+
+#deleting a list
+'''l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+del(l)
+print(l)'''
+
+#Clearing the list items
+'''l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+l.clear()
+print(l)'''
+
+#Printing the items of the list
+'''l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+for x in l:
+    print(x)'''
+
+#Looping through the index
+'''l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+for i in range(len(l)):
+    print(l[i])'''
+
+#Using a while loop
+'''i=0
+l=["rohan", 1, "ayushi", 3, "rohan", "apple", "hey", "rohan"]
+while i<len(l):
+    print(l[i])
+    i+=1'''
+
+#Looping using list comprehension
+'''l=["apple","banana","cherry"]
+[print(x) for x in l]'''
+
+#Lowercase to uppercase
+'''l=["apple","banana","cherry","mango","kiwi"]
+[print(x.upper()) for x in l]'''
+
+#Searching
+'''l=["apple","banana","cherry","mango","kiwi"]
+x="banana"
+[print("YES") if x in l else print("NO")]'''
+
+#Sorting with key
+'''l=["apple","banana","cherry","mango","kiwi"]
+l.sort(key=str.lower)
+print(l)'''
+
+#Sorting
+'''l=["apple","banana","cherry","mango","kiwi"]
+l.sort(reverse=True)
+print(l)'''
+
+#Reverse
+'''l=["apple","banana","cherry","mango","kiwi"]
+l.reverse()
+print(l)'''
+
+
