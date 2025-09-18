@@ -277,4 +277,35 @@ print(l)'''
 l.reverse()
 print(l)'''
 
+#Copying a list
+'''a=["apple","banana","lychee"]
+mylist=a.copy()
+print(mylist)'''
+#Using the list method
+'''a=["apple","banana","lychee"]
+mylist=list(a)
+print(mylist)'''
+#using the slice operator(:)
+'''a=["apple","banana","lychee"]
+mylist=a[:]
+print(mylist)'''
+
+#Join lists
+'''a=["apple","banana","lychee"]
+b=[1,2,3]
+c=a+b
+print(c)'''
+#another way
+'''a=["a","b","c"]
+b=[1,2,3]
+for x in b:
+    a.append(x)
+
+print(a)'''
+
+#extend
+'''a=["a","b","l"]
+b=[1,2,3]
+a.extend(b)
+print(a)'''
 
