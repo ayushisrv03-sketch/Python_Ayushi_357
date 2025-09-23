@@ -309,3 +309,55 @@ b=[1,2,3]
 a.extend(b)
 print(a)'''
 
+#TUPLE
+#TUPLE => used to store multiple items in a single variable
+#      => ordered and unchangable (immutable)
+#      => To change the tuple convert it into list 
+#      => TUPLE CONSTRUCTOR =>  tuple()
+
+#INITIALIZATION OF TUPLE
+'''mytuple=("Ayushi","Avinash", "Aman","Ravi","Akash","Shivi","Yuvi")'''
+#ACCESSING ELEMENTS OF TUPLE
+'''print(mytuple[1])
+print(mytuple[-1])
+if "Ayushi" in mytuple:
+    print ("Yes Ayushi is present")
+else:
+    print (f"No Ayushi is not present")'''
+#METHOD 1 to add elements in tuple
+'''L=list(mytuple)
+L[4]="Ayush"
+L.append("Rakesh")
+mytuple=tuple(L)
+print (mytuple)'''
+#METHOD 2 to add element in tuple
+'''y=("Abhi",)
+mytuple+=y
+print (mytuple)'''
+
+#Printing elements of tuple
+'''tuple1=("apple","banana","cherry","orange","kiwi","melon","mango")
+print(tuple1[2:5])
+tuple1=("apple","banana","cherry","orange","kiwi","melon","mango")
+print(tuple1[2:])
+print(tuple1[-4:-1])'''
+
+#Check if item exists
+'''tuple1=("apple","banana","cherry","orange","kiwi","melon","mango")
+if "apple" in tuple1:
+    print("YES")
+else:
+    print("NO")'''
+
+#Change tuple values-> tuples are immutable and adding using append
+'''tuple1=("apple","banana","cherry","orange","kiwi","melon","mango")
+y=list(tuple1)
+y.append("ayushi")
+tuple1= tuple(y)
+print(tuple1)'''
+
+#PACKING AND UNPACKING IN TUPLE
+'''tup=("ayushi","hello")
+a,b=tup
+print(a)
+print(b)'''
