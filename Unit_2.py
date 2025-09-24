@@ -361,3 +361,179 @@ print(tuple1)'''
 a,b=tup
 print(a)
 print(b)'''
+
+#Dictionary
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025"
+}
+print(d)'''
+
+#Duplicate values are not allowed in dictionary
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+print(d)'''
+
+#Finding length of dictionary
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+print(len(d))'''
+
+#Finding type of a dictionary
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+print(type(d))'''
+
+#dict() constructor
+'''d=dict(name="aman", age=25,country="usa")
+print(d)'''
+
+#Accessing items
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+x=d["mode"]
+print(x)'''
+
+#Using get
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+x=d.get("mode")
+print(x)'''
+
+#Printing all keys
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+x=d.keys()
+print(x)'''
+
+#printing all values
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+print(d.values())'''
+
+#Adding a new key with value
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+print(d)'''
+
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+x=d.items()
+print(x)'''
+
+#Check if a key exists
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+if "mode" in d:
+    print("Yes")'''
+
+#Change items value
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+d["mode"]="s"
+print(d)'''
+
+#Update value
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+d.update({"mode":"yy"})
+print(d)'''
+
+#Remove items
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+d.pop("mode")
+print(d)'''
+
+#Using popitem()
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+print(d.popitem())
+print(d)'''
+
+#Deleting an item
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+del d["year"]
+print(d)'''
+
+#Deleting a dictionary
+'''d={
+    "brand":"BMW",
+    "mode":"xyz",
+    "year":"2025",
+    "year":"2023"
+}
+d["color"]="red"
+del d
+print(d)'''
+
+#Using clear
